@@ -342,7 +342,7 @@ static ELMNodeController *getNodeControllerParent(ELMNodeController *nodeControl
 
 - (void)controllerDidApplyProperties {
     if ([self isLikeDislikeNode])
-        HBLogDebug(@"controllerDidApplyProperties");
+        HBLogDebug(@"%@", @"controllerDidApplyProperties");
     else
         %orig;
 }
